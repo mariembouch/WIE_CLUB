@@ -1,0 +1,104 @@
+/* In your CSS file */
+/* In your CSS file */
+/* In your CSS file */
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide {
+  font-size: 24px;
+  font-weight: bold;
+  animation: slideInFromLeft 1s ease-in-out;
+}
+
+/* Add a new CSS rule for the active animation class */
+.animate-slide-active {
+  opacity: 1;
+}
+
+/* Rest of your CSS */
+
+
+
+.star-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.star-list li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.star {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color:  red; /* Change the color as needed */
+}
+
+
+
+
+/* Activities.css */
+
+
+
+
+.contain{
+  background-color: white;
+}
+.activities-container {
+  max-width: 800px;
+  margin: 0 auto;
+ 
+}
+
+
+.activity {
+  display: flex;
+  margin-bottom: 30px;
+  background: linear-gradient(to top, rgb(212, 197, 197),white); /* Dégradé de couleurs motivantes */
+
+}
+
+.activity-description p {
+  flex: 1;
+  color: black;
+}
+
+.activity-description h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color:     #4267b2;
+}
+
+.activity-description p {
+  font-size: 16px;
+
+}
+
+.activity-slider {
+  flex: 1;
+  max-width: 350px; /* Adjust the width as needed */
+  margin: 20px;
+
+
+}
+
+.activity-slide img {
+  max-width: 100%;
+  height: auto;
+  margin: 5px;
+
+}
+/* Add this CSS code to your CSS file */
+

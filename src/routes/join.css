@@ -1,0 +1,113 @@
+
+.join-us-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+ 
+  
+  .intro-section {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .video-container {
+    width: 150%;
+    max-width: 700px;
+    margin: 2rem 1;
+    background: white; /* Dégradé de couleurs motivantes */
+
+  }
+  .intro-section{
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #772583
+  }
+  .benefits-section {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .benefits-section h2 {
+    font-size: 2rem;
+    color: #772583;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+
+  }
+  
+  .application-section {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .application-section h2 {
+    font-size: 2rem;
+    color: #772583;
+    margin-bottom: 1rem;
+  }
+  
+  .application-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .application-section form input,
+  .application-section form button {
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #772583 ;
+    border-radius: 4px;
+  }
+  
+  .application-section form button {
+    margin: 1rem 0.01rem;
+
+    border-radius: 10px;
+    padding: 2px 20px 10px;
+    cursor: pointer;
+    color: #772583;
+    font-size: 1.2rem;
+font-weight: 600;
+text-shadow: 4px 4px 4px rgba(230, 195, 230, 0.9); /* Mauve light border color */
+    /* Add border property for similar color as box shadow */
+    box-shadow: 0 0 10px rgba(41, 41, 41, 0.2), 0 0 20px rgba(186, 85, 211, 0.4);
+  }
+  
+  .contact-section  {
+    text-align: center;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    color:#772583;
+    margin-bottom: 1rem;
+  }
+  /* Add styles for social media icons */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    color: #333; /* Change the color as needed */
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #03dac6; /* Change the hover color as needed */
+  }
+  
+  

@@ -1,0 +1,30 @@
+/* contactdetails.css */
+
+/* CSS for styling ContactDetails component */
+.left-side {
+
+    background: linear-gradient(to top, rgb(212, 197, 197),white); /* Dégradé de couleurs motivantes */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%; /* Set the width to 50% for the left side */
+    float: left; /* Add this line for left positioning */
+    margin-left: -2px;
+  
+  }
+  
+  
+  .detail {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #772583; /* Set text color to #772583 */
+  }
+  
+  .detail img {
+    width: 40px;
+    height: 40px;
+    margin-right: 3px;
+  }
+  
+  

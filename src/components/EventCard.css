@@ -1,0 +1,62 @@
+/* src/components/EventCard.css */
+.container {
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+    align-items: center; /* Center the cards vertically */
+    min-height: 100vh; /* Ensure the container takes up at least the full viewport height */
+  }
+  
+  .event-card {
+    width: 500px; /* Set a larger width for the square cards */
+    height: 400px; /* Set a larger height for the square cards */
+    cursor: pointer;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgb(212, 197, 197),white); /* Dégradé de couleurs motivantes */
+    color: black;
+    padding: 10px;
+    margin: 5px; /* Add margin between cards if desired */
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .event-card {
+      width: 90%;
+      margin: 5px auto; /* Center cards on smaller screens */
+    }
+  }
+  
+  .event-card.expanded {
+    transform: scale(1.1);
+  }
+  
+  .event-image-container {
+    position: relative;
+    overflow: hidden;
+    max-height: 300px;
+    transition: max-height 0.3s;
+  }
+  
+  .event-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .event-image.expanded {
+    max-height: none;
+  }
+  
+  .event-info {
+    padding: 10px;
+  }
+  
+  .register-button {
+    background-color: purple;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
